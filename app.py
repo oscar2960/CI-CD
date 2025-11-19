@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "App running and connected to DB!"
+    return "Estoy en la cima del mundo!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
